@@ -8,7 +8,7 @@ export default function save() {
             <div className="read-more-content">
                 <InnerBlocks.Content />
             </div>
-            <button className="read-more-toggle">Read More</button>
+			<button className="read-more-toggle">Read More<span class="dashicons dashicons-arrow-down-alt2"></span></button>
         </div>
     );
 }

@@ -22,11 +22,10 @@ export default function Edit() {
 		<div {...blockProps}>
 			<div className="read-more-content">
 				<InnerBlocks
-					allowedBlocks={['core/paragraph', 'core/heading', 'core/image']}
 					template={[['core/paragraph', { placeholder: 'Add your content here...' }]]}
 				/>
 			</div>
-			<button className="read-more-toggle">{__('Read More', 'read-more-block')}</button>
+			<button className="read-more-toggle">{__('Read More', 'read-more-block')}<span class="dashicons dashicons-arrow-down-alt2"></span></button>
 		</div>
 	);
 }
