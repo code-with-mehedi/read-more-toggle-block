@@ -1,0 +1,47 @@
+.read-more-content {
+	display: none;
+
+	&.expanded {
+		display: block;
+	}
+}
+.read-more-toggle {
+	display: inline-flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0a0a40; // Navy blue
+	background: none;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	padding: 0;
+
+	// Underline effect
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: -2px; // Position underline
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background-color: #0a0a40;
+		transform: scaleX(1);
+		transform-origin: left;
+		transition: transform 0.3s ease;
+	}
+
+	&:hover::after {
+		transform: scaleX(0);
+	}
+	.icon {
+		margin-left: 5px;
+		font-size: 14px;
+		transition: transform 0.3s ease;
+	}
+
+	&:hover .icon {
+		transform: rotate(180deg);
+	}
+}
+

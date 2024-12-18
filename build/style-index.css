@@ -1,0 +1,47 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.read-more-content {
+  display: none;
+}
+.read-more-content.expanded {
+  display: block;
+}
+
+.read-more-toggle {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0a0a40;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+}
+.read-more-toggle::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0a0a40;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.read-more-toggle:hover::after {
+  transform: scaleX(0);
+}
+.read-more-toggle .icon {
+  margin-left: 5px;
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+.read-more-toggle:hover .icon {
+  transform: rotate(180deg);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

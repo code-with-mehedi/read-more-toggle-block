@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/read-more-toggle-block",
+  "version": "0.1.0",
+  "title": "Read More Toggle Block",
+  "category": "widgets",
+  "icon": "arrow-down-alt2",
+  "description": "Hide or show content",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "read-more-toggle-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
