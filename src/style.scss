@@ -1,8 +1,10 @@
 .read-more-content {
-	display: none;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
 
 	&.expanded {
-		display: block;
+		max-height: 500px;
 	}
 }
 .read-more-toggle {
