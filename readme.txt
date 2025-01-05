@@ -1,55 +1,39 @@
 === Read More Toggle Block ===
 Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.6
+Tags:              block, toggle, read more
+Tested up to:      6.7.1
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
-
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+This plugin adds a custom "Read More Toggle" block to the WordPress block editor. It allows users to create toggle sections where only part of the content is initially visible, with an option to expand or collapse the rest of the content. This can be useful for creating more dynamic and engaging posts, hiding long text, or organizing content in a clean and space-efficient way.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+The block is fully customizable and provides easy-to-use settings to control the toggle behavior, including the ability to add custom labels for the "Read More" toggle.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload the plugin files to the `/wp-content/plugins/read-more-toggle-block` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
+2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. After activation, you can use the "Read More Toggle" block in the block editor.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= How do I use the Read More Toggle block? =
+Once the plugin is activated, you can add the "Read More Toggle" block directly in the WordPress block editor. Simply search for "Read More Toggle" and add it to your post or page. You can enter content into the toggle and customize the toggle behavior using the block settings.
 
-An answer to that question.
+= Can I customize the label for the "Read More" toggle? =
+Yes, the plugin provides a setting in the block options to customize the text of the "Read More" label that appears when the content is collapsed.
 
-= What about foo bar? =
-
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+= Is this plugin compatible with the latest WordPress versions? =
+Yes, the plugin is fully compatible with the latest versions of WordPress. It has been tested up to version 6.7.1.
 
 == Changelog ==
 
 = 0.1.0 =
-* Release
+* Initial release of the Read More Toggle Block plugin.
 
 == Arbitrary section ==
 
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+For more advanced users, the plugin also allows customization of the toggle style via CSS. You can add your custom styles in the WordPress Customizer or theme's stylesheet.
