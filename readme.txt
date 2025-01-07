@@ -1,7 +1,7 @@
 === Read More Toggle Block ===
-Contributors:      The WordPress Contributors
+Contributors:      mehedi_csit
 Tags:              block, toggle, read more
-Tested up to:      6.7.1
+Tested up to:      6.7
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -27,7 +27,7 @@ Once the plugin is activated, you can add the "Read More Toggle" block directly 
 Yes, the plugin provides a setting in the block options to customize the text of the "Read More" label that appears when the content is collapsed.
 
 = Is this plugin compatible with the latest WordPress versions? =
-Yes, the plugin is fully compatible with the latest versions of WordPress. It has been tested up to version 6.7.1.
+Yes, the plugin is fully compatible with the latest versions of WordPress. It has been tested up to version 6.7
 
 == Changelog ==
 
